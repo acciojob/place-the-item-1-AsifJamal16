@@ -1,16 +1,20 @@
 
 /* Your CSS Code here. */
+/* your css code here. */
 .cont{
-	display:flex;
-	justify-content:space-between;
-	flex-wrap:wrap;
+    display: flex;
+    justify-content: space-between; /* first + last touch screen edges */
+    flex-wrap: wrap;                /* new items go to next row */
 }
+
 .box{
-	height:100px;
-	width:100px;
-	font-size:50px
-	
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    margin: 10px 0;                 /* space between rows */
+    margin-right: 20px;             /* space between items */
 }
+
 #green{
 	background-color:green;
 }
